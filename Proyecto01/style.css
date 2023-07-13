@@ -1,0 +1,211 @@
+
+
+header .navbar{
+    background-color: bisque !important;
+}
+
+.mega-carousel{
+    width: 100%;
+
+}
+
+.carousel-item img{
+    height: 500px ;
+}
+
+.carousel-caption{
+    background-color: transparent;
+}
+
+.carousel-caption h5{
+    color: black;
+    background-color: transparent;
+}
+
+
+
+.a{
+    margin-top: 50px;
+    margin-left: 50px;
+    display:inline-block;
+}
+
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+main {
+    background-color: bisque;
+}
+
+.carousel-caption p{
+    color: black;
+    background-color: transparent;
+}
+
+div .Distancia{
+    margin-top: 50px;
+    background-color: bisque;
+    
+}
+
+.Anuncio img{
+    width: 90% !important;
+    height: 200px;
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.Anuncio{
+    width: 70%;
+}
+
+.Anuncios div{
+    background-color:beige;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.Anuncios p{
+    background-color:beige;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+
+.container{
+    color: white;
+    background-color: black;
+}
+
+.container p{
+    background-color: black;
+}
+
+footer{
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.Informacion {
+    background-color: black;
+}
+
+h4 {
+    background-color: black;
+}
+
+.info {
+    background-color: black;
+    display: inline-block;
+    height: 40%;
+    width: 40%;
+}
+
+.D div{
+    margin-top: 25px !important;
+}
+
+.info a{
+    color: white;
+    background-color: black;
+    text-decoration: none !important;
+}
+
+b{
+    background-color: black;
+}
+
+.info p{
+    margin-top: 2px !important;
+}
+
+.arriba {
+    padding-right: 40px;
+}
+
+.container-redes{
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.container-redes ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.carousel-caption a{
+    text-decoration: none !important;
+}
+
+:root{
+    --Facebook: #3b5999;
+    --Instagram: #e4405f;
+    --Twitter: #55acee;
+    --Whatsapp: #0dfd35;
+}
+
+.container-redes a{
+    display: block;
+    padding: 0 10px;
+    background-color: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 2);
+    transition: .2s;
+}
+
+.container-redes ul:hover{
+    filter: blur(2px);
+}
+
+.container-redes ul li a:hover{
+    transform: translateY(.3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0,0 ,0 ,4);
+    filter: none;
+}
+
+.container-redes ul li .Instagram:hover{
+    background: var(--Instagram);
+}
+
+.container-redes ul li .Twitter:hover{
+    background: var(--Twitter);
+}
+
+.container-redes ul li .Facebook:hover{
+    background: var(--Facebook);
+}
+
+.container-redes ul li .Whatsapp:hover{
+    background: var(--Whatsapp);
+}
+
+ul{
+    background-color: black;
+    color: black;
+}
+
+li{
+    background-color: black;
+    display: inline-block;
+    margin: 0, 0;
+}

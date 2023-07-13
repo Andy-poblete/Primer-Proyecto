@@ -1,11 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UDD EVENTOS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- CONEXION CON BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
+
+<title></title>
+
 <body>
-    
+    <header>
+        <section class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">UDD EVENTOS</a>
+            <button>
+                <h6>INICIO</h6>
+            </button>
+            <button>
+                <h6>CATALOGO</h6>
+            </button>
+            <button>
+                <h6>¿COMO ARRENDAR?</h6>
+            </button>
+            <button>
+                <h6>PREGUNTAS FRECUENETS</h6>
+            </button>
+            <button>
+                <h6>PROMOCIONES</h6>
+            </button>
+            <button>
+                <h6>AYUDA</h6>
+            </button>
+
+        </section>
+    </header>
+
+    <main>
+        <div class="mega-carousel">
+            <!-- INICIO DEL CAROUSEL  -->
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/cristales/imagebox2-h4-out2vbcco4apgw94n2sw5pstm9a6akt08oto1ylb00.png"
+                            class="d-block w-100" alt="Cristales">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="">
+                                <h5>Cristales</h5>
+                                <p>Tenemos variedades en Cristales</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./images/cuchelleria/cochilleria-interior-ouzs1x4so44ntua9bojjs6w5x7tqyx5ablfzbat14g.png"
+                            class="d-block w-100" alt="cuchelleria">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="">
+                                <h5>Cuchelleria</h5>
+                                <p>Distintos tipos de cubiertos</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Generales/action3-h1-q7vdfpghhi2ej8z3oqcyzo2knryedn7g6vq8v8wdm8.png"
+                            class="d-block w-100" alt="Generales">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="">
+                                <h5>General</h5>
+                                <p>Tenemos Conservadoras, Saleros, Ceniceros, Etc</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./images/manteleria/manteleria.interior-ouzs1zyb8m8iso65v7rfho6jpdfum0ghbzefr4ouls.png"
+                            class="d-block w-100" alt="Manteleria">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="">
+                                <h5>Manteleria</h5>
+                                <p>Manteles Cuadrados y Redondos</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/mobiliario/mobiliario-interior-ouzs1tdfwrzijefpxmx1i7ubjoca44qcz2u1e6yltc.png"
+                            class="d-block w-100" alt="Mobiliario">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="">
+                                <h5>Mobiliario</h5>
+                                <p>Sillas y Mesas</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/Vajilla/vajilla-interior-ouzs1v94ag236mczmnqan7d8qg30jixtnc50cqvtgw.png"
+                            class="d-block w-100" alt="Vajilla">
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="">
+                                <h5>Vajilla</h5>
+                                <p>Platos, Azucareros, Etc</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- FIN DEL CAROUSEL -->
+
+        <div class="Distancia"> <!--  EL DIV DE CLASE DISTANCIA ES PARA DAR LA SEPARACION ENTRE CADA DIV -->
+            <p>
+            <h2>Te damos la Bienvenida a UDD EVENTOS elije una de las categoria</h2>
+            </p>
+            <div clas="Principales">
+                <div class="a">   <!--  LA CLASE A DA DERENCIA A EL MARGIN DE LAS IMAGENES  -->
+                    <a href=""><img src="./images/Imagenes-principales/Cristaleria.png" alt="Cristales" height="300px" ;
+                            width="300px">
+                    </a>
+                </div>
+                <div class="a">
+                    <a href="">
+                        <img src="./images/Imagenes-principales/Cuchelleria.png" alt="Cuchelleria" height="300px" ;
+                            width="300px">
+                    </a>
+                </div>
+                <div class="a">
+                    <a href="">
+                        <img src="./images/Imagenes-principales/Generales.png" alt="General" height="300px" ;
+                            width="300px">
+                    </a>
+                </div>
+                <div class="a">
+                    <a href="">
+                        <img src="./images/Imagenes-principales/Manteleria.png" alt="Manteleria" height="300px" ;
+                            width="300px">
+                    </a>
+                </div>
+                <div class="a">
+                    <a href="">
+                        <img src="./images/Imagenes-principales/Mobiliario.png" alt="Mobiliario" height="300px" ;
+                            width="300px">
+                    </a>
+                </div>
+                <div class="a">
+                    <a href="">
+                        <img src="./images/Imagenes-principales/Vajilla.png" alt="Vajilla" height="300px" ;
+                            width="300px">
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--  ANUNCIO EXTRA SOBRE CARRUAJES DE BODAS -->
+        <div>
+            <div class="Distancia">
+                <div class="Anuncios">
+                    <div class="Anuncio">
+                        <p class="Anuncio">¿Quieres alquilar un vehiculo para tu boda? Te mostramos dos recomendaciones
+                            a las cuales podrias optar</p>
+                        <div id="carouselExample2" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/Carruajes/Auto de bodas.png" class="d-block w-100"
+                                        alt="Auto de Boda">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/Carruajes/Carruaje.png" class="d-block w-100"
+                                        alt="Carruaje de boda">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </buton>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin del anuncio-->
+            </div>
+        </div>
+
+        <footer>
+            <div class="Informacion"> <!-- ESTE DIV ES PARA LA INFORMACION QUE VA AL FINAL DE LA WEB -->
+                <div class="container">
+                    <div>
+                        <p>Tenemos mas de 20 años de experiencia </p>
+                        <p class="arriba" style="text-align: justify;">Contacta a unos de nuestros especialiasta
+                            paratener una buena asesoria</p>
+                    </div>
+
+                    <div class="info">
+                        <h4>Categoria</h4>
+                        <a href="">Cristales</a>
+                        <p><a href="">Cuchelleria</a></p>
+                        <p><a href="">Generales</a></p>
+                        <p><a href="">Manteleria</a></p>
+                        <p><a href="">Mobiliario</a></p>
+                        <p><a href="">Vajilla</a></p>
+                    </div>
+                    <div class="info">
+                        <h4>Contacto</h4>
+                        <b>Telefono:</b>
+                        <p><a href="">+569 8765 4321</a>
+                            /
+                            <a href="">+569 9876 5432</a>
+                        </p>
+                        <b>Email:</b>
+                        <p><a href="">udd.eventos@gmail.com</a></p>
+                        <b>Direccion:</b>
+                        <p><a href="">Tongoy / Los vilos 111, Coquimbo</a></p>
+                        <div clas="Container-redes">
+                            <ul>
+                                <li><a href="#" class="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#" class="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="Whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- ACA SE INSERTO EL SCRIPT DE BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
