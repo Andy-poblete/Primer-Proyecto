@@ -4,9 +4,28 @@ header .navbar{
     background-color: bisque !important;
 }
 
+.navbar img{
+    width: 80px;
+    height: 80px;
+
+}
+
+.jumbotron{
+    background-color: bisque;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron img{
+    width: 500px;
+    height: 100%;
+    
+}
+
 .mega-carousel{
     width: 100%;
-
 }
 
 .carousel-item img{
@@ -27,7 +46,9 @@ header .navbar{
 .a{
     margin-top: 50px;
     margin-left: 50px;
-    display:inline-block;
+    display: inline-block;
+    direction: rtl;
+    justify-content: flex-end;
 }
 
 
