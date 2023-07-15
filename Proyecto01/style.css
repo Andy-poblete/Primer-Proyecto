@@ -25,6 +25,7 @@ header .navbar {
 
 .Super-carousel{
     width: 45%;
+    margin-top: 80px;
 }
 
 .mega-carousel {
@@ -46,15 +47,19 @@ header .navbar {
 
 
 
-.a {
+.a div{
     margin-top: 50px;
     margin-left: 50px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
     display: inline-block;
     direction: rtl;
     justify-content: flex-end;
 }
 
-form{
+form {
+    margin-top: 80px;
     width: 100%;
     height: 100%;
     display: inline-block;
