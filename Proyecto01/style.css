@@ -72,14 +72,13 @@ form {
 }
 
 .grupo {
-    flex-direction: row;
-    
+    display: flex;
+    width: 100%;
 }
 
 .form-group {
     width: 45%;
     margin-left: 50px;
-    display: flex;
     flex-direction: column;
 }
 
@@ -89,9 +88,6 @@ form {
 
 .Super-carousel {
     width: 45%;
-    margin-top: 80px;
-    margin-left: auto;
-    position:static;
 }
 
 button {
