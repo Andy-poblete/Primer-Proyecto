@@ -8,6 +8,11 @@ header .navbar {
 
 }
 
+.lea {
+    margin-left: auto;
+    margin-right: 3%;
+}
+
 .jumbotron {
     background-color: bisque;
     display: flex;
@@ -23,10 +28,7 @@ header .navbar {
 
 }
 
-.Super-carousel{
-    width: 45%;
-    margin-top: 80px;
-}
+
 
 .mega-carousel {
     width: 100%;
@@ -58,14 +60,39 @@ header .navbar {
     justify-content: flex-end;
 }
 
+.card img{
+    width: 250px;
+    height: 250px;
+}
+
 form {
     margin-top: 80px;
     width: 100%;
     height: 100%;
-    display: inline-block;
-    flex-wrap: wrap;
 }
 
+.grupo {
+    flex-direction: row;
+    
+}
+
+.form-group {
+    width: 45%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    margin-left: 50px;
+}
+
+.Super-carousel {
+    width: 45%;
+    margin-top: 80px;
+    margin-left: auto;
+    position:static;
+}
 
 button {
     background-color: transparent;
@@ -87,9 +114,7 @@ div .Distancia {
 
 }
 
-.form-group {
-    width: 45%;
-}
+
 
 .form {
     border-radius: 2px black;
