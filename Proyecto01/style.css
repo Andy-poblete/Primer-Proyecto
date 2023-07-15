@@ -1,51 +1,52 @@
-
-
-header .navbar{
+header .navbar {
     background-color: bisque !important;
 }
 
-.navbar img{
+.navbar img {
     width: 80px;
     height: 80px;
 
 }
 
-.jumbotron{
+.jumbotron {
     background-color: bisque;
     display: flex;
     align-items: stretch;
     width: 100%;
     height: 100%;
-    
     margin-bottom: 10px;
 }
 
-.jumbotron img{
-    width: 500px;
+.jumbotron img {
+    width: 100%;
     height: 100%;
-    
+
 }
 
-.mega-carousel{
+.Super-carousel{
+    width: 45%;
+}
+
+.mega-carousel {
     width: 100%;
 }
 
-.carousel-item img{
-    height: 500px ;
+.carousel-item img {
+    height: 500px;
 }
 
-.carousel-caption{
+.carousel-caption {
     background-color: transparent;
 }
 
-.carousel-caption h5{
+.carousel-caption h5 {
     color: black;
     background-color: transparent;
 }
 
 
 
-.a{
+.a {
     margin-top: 50px;
     margin-left: 50px;
     display: inline-block;
@@ -53,8 +54,15 @@ header .navbar{
     justify-content: flex-end;
 }
 
+form{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    flex-wrap: wrap;
+}
 
-button{
+
+button {
     background-color: transparent;
     border-color: transparent;
 }
@@ -63,45 +71,44 @@ main {
     background-color: bisque;
 }
 
-.carousel-caption p{
+.carousel-caption p {
     color: black;
     background-color: transparent;
 }
 
-div .Distancia{
+div .Distancia {
     margin-top: 50px;
     background-color: bisque;
-    
+
 }
 
-.form-group{
-    width: 50%;
+.form-group {
+    width: 45%;
 }
 
-.form{
+.form {
     border-radius: 2px black;
 }
 
-
-.carousel-control-next-icon{
+.carousel-control-next-icon {
     background-color: black;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     background-color: black;
 }
 
 
-.container{
+.container {
     color: white;
     background-color: black;
 }
 
-.container p{
+.container p {
     background-color: black;
 }
 
-footer{
+footer {
     margin-top: 25px;
     width: 100%;
     height: 100%;
@@ -122,17 +129,17 @@ h4 {
     width: 40%;
 }
 
-.info a{
+.info a {
     color: white;
     background-color: black;
     text-decoration: none !important;
 }
 
-b{
+b {
     background-color: black;
 }
 
-.info p{
+.info p {
     margin-top: 2px !important;
 }
 
@@ -140,12 +147,12 @@ b{
     padding-right: 40px;
 }
 
-.container-redes{
+.container-redes {
     box-sizing: border-box;
     justify-content: center;
 }
 
-.container-redes ul li{
+.container-redes ul li {
     display: inline-block;
     margin: 0 5px;
     width: 50px;
@@ -154,18 +161,18 @@ b{
 
 }
 
-.carousel-caption a{
+.carousel-caption a {
     text-decoration: none !important;
 }
 
-:root{
+:root {
     --Facebook: #3b5999;
     --Instagram: #e4405f;
     --Twitter: #55acee;
     --Whatsapp: #0dfd35;
 }
 
-.container-redes a{
+.container-redes a {
     display: block;
     padding: 0 10px;
     background-color: #333;
@@ -176,38 +183,38 @@ b{
     transition: .2s;
 }
 
-.container-redes ul:hover{
+.container-redes ul:hover {
     filter: blur(2px);
 }
 
-.container-redes ul li a:hover{
+.container-redes ul li a:hover {
     transform: translateY(.3px) scale(1.05);
-    box-shadow: 0 5px 5px 0px rgba(0,0 ,0 ,4);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
     filter: none;
 }
 
-.container-redes ul li .Instagram:hover{
+.container-redes ul li .Instagram:hover {
     background: var(--Instagram);
 }
 
-.container-redes ul li .Twitter:hover{
+.container-redes ul li .Twitter:hover {
     background: var(--Twitter);
 }
 
-.container-redes ul li .Facebook:hover{
+.container-redes ul li .Facebook:hover {
     background: var(--Facebook);
 }
 
-.container-redes ul li .Whatsapp:hover{
+.container-redes ul li .Whatsapp:hover {
     background: var(--Whatsapp);
 }
 
-ul{
+ul {
     background-color: black;
     color: black;
 }
 
-li{
+li {
     background-color: black;
     display: inline-block;
     margin: 0, 0;
